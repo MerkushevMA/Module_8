@@ -25,13 +25,6 @@ def calculate_average(*numbers):
         result = None
     return result
 
-# a = [1, '2', 3]
-# print(type(a))
-# print(personal_sum(a))
-#
-# # print(personal_sum('1,2,3'))
-# print(personal_sum([1, "Строка", 3, "Ещё Строка"]))
-
 print(f'Результат 1: {calculate_average("1, 2, 3")}') # Строка перебирается, но каждый символ - строковый тип
 print(f'Результат 2: {calculate_average([1, "Строка", 3, "Ещё Строка"])}') # Учитываются только 1 и 3
 print(f'Результат 3: {calculate_average(567)}') # Передана не коллекция
